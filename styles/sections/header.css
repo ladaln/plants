@@ -1,0 +1,48 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+}
+
+.header-logo {
+    display: flex;
+    gap: 1px;
+    cursor: pointer;
+}
+
+.header-logo_name {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+    gap: 46px;
+}
+
+.header-list_item a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+.header-list .header-list_item:first-child a{
+    color:#E06733;
+}
+.header-list_item a:active {
+    color: #E06733;
+}
+
+.header-list_item a:hover {
+    color: #E06733;
+}

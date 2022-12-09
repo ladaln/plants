@@ -1,0 +1,36 @@
+.wrapper-welcome {
+    display: flex;
+    justify-content: space-between;
+    gap: 224.2px;
+    padding: 62px 0;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    width: 549px;
+}
+
+.green-text {
+    color: #499A18;
+}
+
+.welcome-content_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin-top: 42px;
+    margin-bottom: 48px;
+    height: 105px;
+    width: 525px;
+}
+
+
+

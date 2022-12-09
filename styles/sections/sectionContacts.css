@@ -1,0 +1,44 @@
+.contacts-wrapper {
+   padding-top:60px;
+    background-image: url('../../assets/contactWoman.png');
+background-repeat: no-repeat;
+background-position-y: bottom;
+padding-bottom: 352px;
+}
+
+.contacts-title{
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: block;
+margin: 0 auto;
+color: #499A18;
+}
+
+.contacts-city_adress{
+     margin-top: 37px;
+    margin-left: auto;
+    background: #D6E7D2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
+width: 450px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:5px 20px;
+
+}
+.contacts-city_adress_title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+letter-spacing: 0.05em;
+color: #717171;
+}
+#arrow-contact {
+padding-bottom: 4.5px;
+}
