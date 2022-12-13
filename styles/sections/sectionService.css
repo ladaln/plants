@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 90px;
 }
 
 .service-header-buttons {
@@ -35,14 +36,14 @@ color: #E06733;
 .service-main{
     display: flex;
     justify-content: space-between;
-    gap:117px;
+    gap:55px;
     flex-wrap: wrap;
-    margin-top: 90px;
+    
 }
 
 .service-main_card{
     border: 1px solid #E3E1D5;
-    border-radius: 0px 0px 20px 20px;
+    border-radius:  20px;
 }
 .service-main_card_title{
       font-family: 'Inter';

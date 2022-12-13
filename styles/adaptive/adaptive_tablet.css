@@ -1,0 +1,167 @@
+/*header*/
+
+@media(max-width:768px){
+  .header-wrapper {
+       padding: 35px 0;
+}
+}
+
+/*section welcome*/
+
+@media(max-width:768px){
+.wrapper-welcome {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+        padding: 40px 0 70px 0;
+        gap: 42px;
+}
+
+h1 {
+font-size: 35px;
+
+}
+.welcome-content_text {
+font-size: 16px;
+line-height: 25px;}
+.welcome-img img{
+width: 280px;
+height: 254.15px;
+}
+}
+
+/*section about*/
+
+@media(max-width:768px){
+    .wrapper-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0 95px 0;
+       align-items: center;
+}
+
+h2 {
+   font-size: 35px;
+line-height: 46px;
+    
+    margin:0 auto;
+    text-align: center;
+}
+
+.about-content_text {
+    padding: 40px 0;
+  
+    }
+.about-img img{
+width: 250px;
+height: 258px;
+}
+}
+
+/*section service*/
+
+@media(max-width:768px){
+  .wrapper-service {
+       padding: 60px 0 70px 0;
+}
+
+.service-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+
+.service-header_title h2{
+font-weight: 400;
+font-size: 35px;
+line-height: 46px;
+text-align: start;
+}
+
+/*CARDS*/
+.service-main{
+     gap:38px;
+
+}
+.service-main_card_text{
+padding:0 40px 20px 40px;
+}
+
+.service-main_card{
+   width: 280px; 
+}
+
+.service-main_card img{
+    width: 100%;
+}
+}
+
+/*section prices*/
+
+@media(max-width:768px){
+.wrapper-prices{
+   padding-bottom: 88px;
+}
+
+.prices-tarif_title{
+   font-size: 35px;
+line-height: 42px;
+text-align: start;
+margin-bottom: 50px;
+}
+
+    .prices-help_title{
+        width: 296px;
+              font-size: 25px;
+line-height: 35px;  
+margin-top: 139;
+    }
+
+}
+
+/*section contacts*/
+
+@media(max-width:768px){
+    .contacts-wrapper {
+   padding-top:40px;
+   padding-bottom: 0;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.woman-contact{
+    display: block;
+    margin: 0 auto;
+}
+
+.contacts-city_adress{
+     margin: 100px auto 250px auto;
+  }
+}
+
+/*footer*/
+
+@media(max-width:768px){
+   .footer-wrapper{
+    padding: 32px 0 23px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info p, .footer-info a, .footer-rsschool a{
+line-height: 24px;
+}
+.footer-rsschool{
+    margin:16px 0 20px 0;
+}
+
+}

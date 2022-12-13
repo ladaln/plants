@@ -42,3 +42,7 @@ color: #717171;
 #arrow-contact {
 padding-bottom: 4.5px;
 }
+
+.woman-contact{
+    display: none;
+}

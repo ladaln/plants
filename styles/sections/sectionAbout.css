@@ -1,9 +1,9 @@
 .wrapper-about {
     display: flex;
     justify-content: space-between;
-    gap: 153px;
+
     padding: 93px 0;
-    ;
+    
     align-items: center;
 }
 
@@ -14,7 +14,7 @@ h2 {
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
-    width: 463px;
+    
 }
 
 .orange-text {

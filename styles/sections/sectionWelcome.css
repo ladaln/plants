@@ -1,7 +1,7 @@
 .wrapper-welcome {
     display: flex;
     justify-content: space-between;
-    gap: 224.2px;
+  
     padding: 62px 0;
 }
 
@@ -12,7 +12,7 @@ h1 {
     font-size: 45px;
     line-height: 50px;
     color: #717171;
-    width: 549px;
+    
 }
 
 .green-text {
@@ -28,9 +28,10 @@ h1 {
     color: #636060;
     margin-top: 42px;
     margin-bottom: 48px;
-    height: 105px;
-    width: 525px;
+  
 }
-
+#learn-more_btn{
+    margin:0;
+}
 
 

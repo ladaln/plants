@@ -5,6 +5,8 @@
 @import url('sections/sectionPrices.css');
 @import url('sections/sectionService.css');
 @import url('sections/sectionWelcome.css');
+@import url('adaptive/adaptive_tablet.css');
+@import url('adaptive/adaptive_mobile.css');
 
 @font-face {
     font-family: Inter;
@@ -27,11 +29,14 @@
 }
 
 .wrapper {
-    max-width: 1500px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 109px;
 }
-
+@media(max-width:768px){
+    .wrapper{
+    padding:0 50px;}
+}
 header,
 #welcome,
 #service,
