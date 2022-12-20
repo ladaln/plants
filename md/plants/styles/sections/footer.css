@@ -1,0 +1,30 @@
+.footer-wrapper{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer-info p, .footer-info a, .footer-rsschool a{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+color: #000000;  
+}
+
+.footer-site-list{
+    display: flex;
+    justify-content: space-between;
+    gap:22.68px;
+    list-style-type: none;
+}
+
+.footer-site-list_item{
+    cursor:pointer;}

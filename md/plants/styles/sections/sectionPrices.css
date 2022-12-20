@@ -1,0 +1,100 @@
+.wrapper-prices{
+    display: flex;
+    justify-content: space-between;
+padding: 40px 0 115px 0;
+}
+
+.prices-tarif_title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+margin-bottom: 60px;
+}
+.prices-tarif-list{
+    border: 1px solid #E3E1D5;
+    border-radius: 20px; 
+    padding: 34px 41px;
+    display: flex;
+        flex-direction: column;
+        gap:32px;
+        align-items: flex-start;
+        justify-content: center;
+        width: 332px;
+    }
+
+    .prices-tarif_btn-name{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+text-align: start;
+color: #000000;
+    }
+    .prices-tarif_btn{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        align-content: center;
+              background: #EDF2EC;
+border-radius: 20px;
+border: none;
+padding: 16px 40px;
+    }
+    /*.prices-tarif_btn-dott{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #D9D9D9;
+        position: absolute;
+       left: calc(100% - 48px);
+       top: calc(100% - 33px);
+    }*/
+
+.arrow{
+    width: 16px;
+height: 16px;
+border-radius: 50%;
+background: #D9D9D9;
+text-align: center;
+cursor: pointer;
+}
+.arrow img{padding-bottom:2.5px;}
+
+    .prices-help_title{
+        width: 452px;
+               font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;   
+        text-align: right;
+                color: #000000; 
+                text-align: right;  
+    }
+
+    .prices-help button{
+color: #E06733;
+background-color: white;
+margin:39px 0;
+margin-left: auto;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+    }
+
+    .prices-help img{
+        display: block;
+        margin-left: auto;
+    }
+
+    .arrow-white{
+        background: #AEA1A1;
+        padding:0px;
+    }

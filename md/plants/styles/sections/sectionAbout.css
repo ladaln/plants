@@ -1,0 +1,33 @@
+.wrapper-about {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 93px 0;
+    
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    
+}
+
+.orange-text {
+    color: #E06733;
+}
+
+.about-content_text {
+    padding-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 605px;
+    color: #636060;
+}
